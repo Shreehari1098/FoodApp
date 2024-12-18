@@ -1,0 +1,280 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE8C5">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Delivery"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        android:layout_marginTop="40dp"
+        />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFA27F"
+        android:hint="Search,Order,Enjoy,Repeat!"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Rated"
+        android:textColor="#FF0000"
+        android:textSize="23dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"
+
+        android:layout_marginTop="40dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/masaladosa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masala Dosa"
+                    android:textColor="#4b4b4b"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/biriyani" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biriyani"
+                    android:textColor="#4b4b4b"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/noodles" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noodles"
+                    android:textColor="#4b4b4b"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shawarma" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shawarma"
+                    android:textColor="#4b4b4b"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby"
+        android:id="@+id/nearby"
+        android:layout_marginTop="10dp"
+        android:background="#97BE5A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great Offer"
+        android:id="@+id/offer"
+        android:layout_marginTop="10dp"
+        android:background="#97BE5A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pure veg"
+        android:id="@+id/veg"
+        android:layout_marginTop="10dp"
+        android:background="#97BE5A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non Veg"
+        android:id="@+id/nonveg"
+        android:layout_marginTop="10dp"
+        android:background="#97BE5A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raiting 4.0+"
+        android:id="@+id/raiting"
+        android:layout_marginTop="10dp"
+        android:background="#97BE5A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Featured restaurants"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"
+
+        android:layout_marginTop="40dp"
+        />
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pizza" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza House"
+        android:textSize="20dp"
+        android:textColor="#4b4b4b"
+        android:textAlignment="center" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/mandi" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arabian Mandi"
+        android:textSize="20dp"
+        android:textColor="#4b4b4b"
+        android:textAlignment="center" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/tea" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tea Time"
+        android:textSize="20dp"
+        android:textColor="#4b4b4b"
+        android:textAlignment="center" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pastry" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cake Factory"
+        android:textSize="20dp"
+        android:textColor="#4b4b4b"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+</ScrollView>
